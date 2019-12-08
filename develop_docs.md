@@ -27,14 +27,18 @@ for each _label_ the application will read the [keypad_action_mapping.json] file
 ```
 ## creating a new action
 
+# updates in archetecture for v2 :
+need to write this :
+-explain a bit about using openframeworks as backend , with this repo and this etc, how they communicate - osc etc ...
+
 ## beyond
 
 i hope the foundations iv provided encourage you to make larger changes for more ambitious features. if so you could try getting in touch (langolierz@gmail.com) first and maybe i could help align your approach with the rest of the project
 
 [diagram]: https://docs.google.com/drawings/d/1ltWCv82rKVzOiFe6GaDDPlneG2oki0yRujArPU5V2ss/edit?usp=sharing
-[design_overview]: design_overview.jpg
-[premapped_keys]: vectorfront_blank_keys.png
-[dotfiles]: ../dotfiles
-[keypad_action_mapping.json]: ../data_centre/json_objects/keypad_action_mapping.json
-[action]: ../actions.py 
+[design_overview]: images/design_overview.jpg
+[premapped_keys]: https://github.com/langolierz/r_e_c_u_r/enclosure/vectorfront_blank_keys.png
+[dotfiles]: https://github.com/langolierz/r_e_c_u_r/dotfiles
+[keypad_action_mapping.json]: https://github.com/langolierz/r_e_c_u_r/data_centre/json_objects/keypad_action_mapping.json
+[action]: https://github.com/langolierz/r_e_c_u_r/actions.py 
 

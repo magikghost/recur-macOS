@@ -184,10 +184,10 @@ this program uses the _mix_shader_ to select the input. there is also the option
 </details>
 
 [3.5mm trrs]: https://www.adafruit.com/product/2881
-[display_image]: display_parts.jpg
-[player_example]: player_example.jpg
-[browser_example]: browser_example.jpg
-[sampler_example]: sampler_example.jpg
-[settings_example]: settings_example.jpg
-[keys]: ./vectorfront_keys.png
-[message_example]: ./message_example.jpg
+[display_image]: images/display_parts.jpg
+[player_example]: images/player_example.jpg
+[browser_example]: images/browser_example.jpg
+[sampler_example]: images/sampler_example.jpg
+[settings_example]: images/settings_example.jpg
+[keys]: https://github.com/langolierz/r_e_c_u_r/enclosure//vectorfront_keys.png
+[message_example]: images/message_example.jpg

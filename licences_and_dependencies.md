@@ -12,7 +12,7 @@ this licence only applies to the code in this repo. see below for a list of exte
 
 ## hardware
 
-besides the application code licensed above , i would like all original hardware designs licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License]. this includes the enclosure design , custom key stickers and assembly. it does __not__ apply to, and i am __not__ the copyright holder for _Raspberry Pi 3 Model B_ , _3.5 Inch TFT LCD Module For Raspberry Pi_ , _Generic Wireless USB Numeric Keypad_ or any other third party extension / accessory.
+besides the application code licensed above , i would like all original hardware designs licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License]. this includes the enclosure design , extension pcb project,  custom key stickers and assembly. it does __not__ apply to, and i am __not__ the copyright holder for _Raspberry Pi 3 Model B_ , _3.5 Inch TFT LCD Module For Raspberry Pi_ , _Generic Wireless USB Numeric Keypad_ or any other third party extension / accessory.
 
 # program dependencies
 
@@ -30,11 +30,16 @@ python-rt-midi | midi backend | MIT / modified MIT
 gpac (mp4box) | creating mp4 file | LGPL
 git | used to install and update | GPL-2.0
 
+## v2 additional dependencies:
+
+v2 adds openframeworks and a bunch of ofx extensions to this dependency list : - fill this out - 
+
+
 ## some research / thoughts about how licences work and interact.
 
 i have not modified any of the programs that are used in recur. they are all being used either under a permissive license or as part of the operating system. i can license my program however i choose, i can not license (for example) an img that contained gpl-2.0 programs with a non gpl compatible license.
 
-there are no restrictions on selling a product under any of these licenses.
+there are no restrictions on selling a product under any of these licenses. in fact non-commercial licencees are not open-source
 
 some [interesting discussion] around difference between modifying a gpl program and using one as a dependency , 
 - if it is part of the os it is ok.
@@ -42,7 +47,7 @@ some [interesting discussion] around difference between modifying a gpl program 
 
 there is no restrictions to permissive installer scripts downloading gpl licensed programs
 
-[license]: ../LICENSE.md
+[license]: https://github.com/langolierz/r_e_c_u_r/LICENSE.md
 [GPL-3.0]: https://www.gnu.org/licenses/gpl-3.0.en.html
 [markings]: https://wiki.creativecommons.org/wiki/Marking/Creators/Marking_third_party_content
 [interesting discussion]: https://softwareengineering.stackexchange.com/questions/289785/can-i-distribute-a-gpl-executable-not-a-library-in-a-closed-source-application
