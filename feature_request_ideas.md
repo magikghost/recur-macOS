@@ -30,3 +30,4 @@ i will try atleast list the ideas that are in my head at the moment here...
 ## optimize analog read / midi performance to update atlease once per frame with minimal stepping
 ## ??? some kindof projection mapping option ???
 Maybe using ofxPiMapper? https://github.com/kr15h/ofxPiMapper
+## audio reactivity / faux audio reactivity (tap tempo, sync'd modulation, etc)
