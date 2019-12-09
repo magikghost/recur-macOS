@@ -8,7 +8,7 @@ i will try atleast list the ideas that are in my head at the moment here...
 
 
 ## support pi4
-## osc input + pi as wifi transmitter
+## osc input + pi as wifi transmitter/hotspot
 ## gpio matrix input
 ## touch screen as shader params
 ## camera settings - exposure, shutter, resolution, ratio etc for openframeworks backend
@@ -29,3 +29,4 @@ i will try atleast list the ideas that are in my head at the moment here...
 ## cue mode - different output on display to screen - not sure if this is possible ?
 ## optimize analog read / midi performance to update atlease once per frame with minimal stepping
 ## ??? some kindof projection mapping option ???
+Maybe using ofxPiMapper? https://github.com/kr15h/ofxPiMapper
