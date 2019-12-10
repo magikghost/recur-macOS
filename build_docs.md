@@ -142,12 +142,12 @@ r_e_c_u_r looking happy among friends !
 [easyCap UTV007]: https://www.aliexpress.com/item/32885712014.html
 [August VGB300]: https://www.augustint.com/en/productmsg-4-348.html
 [composite cable]: https://www.adafruit.com/product/2881
-[top]: https://github.com/langolierz/r_e_c_u_r/enclosure/topplate.stl
-[bottom]: https://github.com/langolierz/r_e_c_u_r/enclosure/baseplate.stl
-[key stickers]: https://github.com/langolierz/r_e_c_u_r/enclosure/keystickers.svg
+[top]: https://github.com/langolierz/r_e_c_u_r/blob/master/enclosure/topplate.stl
+[bottom]: https://github.com/langolierz/r_e_c_u_r/blob/master/enclosure/baseplate.stl
+[key stickers]: https://github.com/langolierz/r_e_c_u_r/blob/master/enclosure/keystickers.svg
 [etcher]: https://etcher.io
 [modified image]: https://drive.google.com/file/d/1zi_yrYZ6ojb53uP9KPKYS8nrCB3HLs3N/view?usp=sharing
 [operate docs]: operate_docs
-[instructions to install]: https://github.com/langolierz/r_e_c_u_r/dotfiles/README.md 
+[instructions to install]: https://github.com/langolierz/r_e_c_u_r/blob/master/dotfiles/README.md
 [these rubber feet]: https://www.aliexpress.com/item/40-Self-Adhesive-Rubber-Bumper-Stopper-Non-slip-Feet-Door-Buffer-Pads-Furniture-DIY-Tool/32849514475.html
 [faq]: faq
