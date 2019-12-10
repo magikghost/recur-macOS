@@ -310,7 +310,7 @@ this program uses the _mix_shader_ to select the input. there is also the option
 [browser_example]: images/browser_example.jpg
 [sampler_example]: images/sampler_example.jpg
 [settings_example]: images/settings_example.jpg
-[keys]: https://github.com/langolierz/r_e_c_u_r/enclosure/vectorfront_keys.png
+[keys]: https://github.com/langolierz/r_e_c_u_r/blob/master/enclosure/vectorfront_keys.png
 [message_example]: images/message_example.jpg
 [capture_example]: images/capture_example.jpg
 [midi_example]: images/midi_example.jpg
