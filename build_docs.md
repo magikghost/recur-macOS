@@ -57,8 +57,10 @@ another option is to input video through USB. this generally includes some laten
 
 - to get a raspberry pi working you need a micro-sd card with the operating system flashed onto it.
 
-- the easiest way to run recur is by using [etcher] to flash your micro sd with my [modified image] of raspbian.
-(i have tried to document my steps from a fresh image of raspbian to recur if you want to learn here [instructions to install] although this is more difficult and time consuming.)
+__NEW V2.0 IMAGE WITH FIX COMING TOMORROW PLEASE WAIT!__
+
+- ~~the easiest way to run recur is by using [etcher] to flash your micro sd with my [modified image] of raspbian.
+(i have tried to document my steps from a fresh image of raspbian to recur if you want to learn here [instructions to install] although this is more difficult and time consuming.)~~
 
 - insert sd card into pi
 
