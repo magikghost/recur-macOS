@@ -57,10 +57,8 @@ another option is to input video through USB. this generally includes some laten
 
 - to get a raspberry pi working you need a micro-sd card with the operating system flashed onto it.
 
-__NEW V2.0 IMAGE WITH FIX COMING TOMORROW PLEASE WAIT!__
-
-- ~~the easiest way to run recur is by using [etcher] to flash your micro sd with my [modified image] of raspbian.
-(i have tried to document my steps from a fresh image of raspbian to recur if you want to learn here [instructions to install] although this is more difficult and time consuming.)~~
+- the easiest way to run recur is by using [etcher] to flash your micro sd with my [modified image] of raspbian.
+(i have tried to document my steps from a fresh image of raspbian to recur if you want to learn here [instructions to install] although this is more difficult and time consuming.)
 
 - insert sd card into pi
 
@@ -148,7 +146,7 @@ r_e_c_u_r looking happy among friends !
 [bottom]: https://github.com/langolierz/r_e_c_u_r/blob/master/enclosure/baseplate.stl
 [key stickers]: https://github.com/langolierz/r_e_c_u_r/blob/master/enclosure/keystickers.svg
 [etcher]: https://etcher.io
-[modified image]: https://drive.google.com/file/d/1zi_yrYZ6ojb53uP9KPKYS8nrCB3HLs3N/view?usp=sharing
+[modified image]: https://drive.google.com/file/d/12LUw6r1WC5AvaoXEl90v7gb22LbKd0kf/view?usp=sharing
 [operate docs]: operate_docs
 [instructions to install]: https://github.com/langolierz/r_e_c_u_r/blob/master/dotfiles/README.md
 [these rubber feet]: https://www.aliexpress.com/item/40-Self-Adhesive-Rubber-Bumper-Stopper-Non-slip-Feet-Door-Buffer-Pads-Furniture-DIY-Tool/32849514475.html
