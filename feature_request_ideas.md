@@ -18,6 +18,7 @@ i will try to at least list the ideas that are in my head at the moment here...
 including per-slot parameter mapping...?
 ## support NDI ; waiting for offical pi support here
 ## player types to detour such as pingpong
+## have assignable detour banks/slots browser and save/load detours for further use
 ## option to record output rather than input
 ## support images / gifs in the sampler mode
 would be cool to be able to both use images/gifs as sources, but also to be able to add overlays/frames to the output.
