@@ -43,13 +43,15 @@ Add some shader(s) that can use audio data to draw level meters/spectrograms etc
 Use a sort of plugin architecture and automatic detection of MIDI device name to load appropriate controller mappings.
 
 Provide callbacks to allow sophisticated MIDI feedback (lighting pads to indicate slots are full, playing status etc)
-doctea's already started implementing this in his branch at https://github.com/doctea/r_e_c_u_r/tree/feature_midi_apckey25_feedback - it currently supports the pads on the Akai APC Key 25 (https://www.akaipro.com/apc-key-25) and shows shader bank/slot/playing status.
+doctea's already started implementing this in his branch at https://github.com/doctea/r_e_c_u_r/tree/feature_midi_feedback_plugin - it currently supports the pads on the Akai APC Key 25 (https://www.akaipro.com/apc-key-25) and shows shader bank/slot/playing status.
 
 Can be expanded to support other controllers and functionality (config contributions welcome!)
 
 ## record/loop parameter automation
 eg hold down a button, wiggle a CC knob for a few seconds, release it and the recur will loop the automation
+
 should be able to layer multiple automation recordings, save them to slots for later reuse, and start/stop/retrigger them manually or in time with beat?
+
 ## meta presets / macros aka a bank mode similar to sampler / shdr_bnk but for triggering generic actions 
 an extra 'browser' mode that stores macros in triggerable banks/slots
 
