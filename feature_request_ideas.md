@@ -45,14 +45,23 @@ eg hold down a button, wiggle a CC knob for a few seconds, release it and the re
 should be able to layer multiple automation recordings, save them to slots for later reuse, and start/stop/retrigger them manually or in time with beat?
 ## meta presets / macros aka a bank mode similar to sampler / shdr_bnk but for triggering generic actions - mapping python files?
 an extra 'browser' mode that stores macros in triggerable banks/slots
+
 macros should be able to do things like set multiple shaders active, set parameters, set videos playing, set custom midi/parameter mappings, trigger external scripts, play back sequences of parameter changes/automation, switch between configurations
+
 perhaps this could be the functionality that parameter automations are built upon
+
 looping / one shot macros
+
 it would be great if I could use this to eg trigger a macro that sends serial commands to external devices
+
 perhaps implement macros as a base class of macro functionality, with some base types for different macro functionality, then chain them together and extend with custom code where necessary
+
 eg when a macro is selected, particular set of shaders are loaded and the CC knobs are temporarily mapped to controlling the 'best' parameters of those shaders via formulas.  
+
 a button to save the current state as a macro (loaded shader statuses+params, video settings, etc) for later callback or customisation
+
 ## formula mappings
 map Osc and MIDI input values to parameter values via user-editable formulas, discussed in https://github.com/langolierz/r_e_c_u_r/issues/101
+
 have these mappings per-slot or per-macro
 ## multiple cameras / step through multiple cameras
