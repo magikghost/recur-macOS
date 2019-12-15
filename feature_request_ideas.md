@@ -22,7 +22,6 @@ including per-slot parameter mapping...?
 ## support images / gifs in the sampler mode
 ## a bank mode similar to sampler / shdr_bnk but for triggering generic system actions - mapping python files?
 ## playing a video from the browser - similar to how you can play shaders from shader browser
-## file list should be alphabetical
 ## page up / page down nav shortcuts
 ## improve some of the mix shaders
 ## design laser-cut enclosure
