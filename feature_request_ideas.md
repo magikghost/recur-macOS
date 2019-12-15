@@ -72,3 +72,6 @@ map Osc and MIDI input values to parameter values via user-editable formulas, di
 
 have these mappings per-slot or per-macro
 ## multiple cameras / step through multiple cameras
+## make default recur image log to RAM to reduce SD card thrash
+
+SD cards in constant use will wear out and become corrupted after a couple of years due to being written to so often.  To improve the lifetime and reliability of the SD card it would be good to use use something like zram to put log files in memory.  Also need to tweak path in `display_center/message.py` to support this.  Maybe investigate if its possible to get away with disabling swap file for same reason?
