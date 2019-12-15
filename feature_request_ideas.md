@@ -50,7 +50,7 @@ Can be expanded to support other controllers and functionality (config contribut
 ## record/loop parameter automation
 eg hold down a button, wiggle a CC knob for a few seconds, release it and the recur will loop the automation
 should be able to layer multiple automation recordings, save them to slots for later reuse, and start/stop/retrigger them manually or in time with beat?
-## meta presets / macros aka a bank mode similar to sampler / shdr_bnk but for triggering generic actions - mapping python files?
+## meta presets / macros aka a bank mode similar to sampler / shdr_bnk but for triggering generic actions 
 an extra 'browser' mode that stores macros in triggerable banks/slots
 
 macros should be able to do things like set multiple shaders active, set parameters, set videos playing, set custom midi/parameter mappings, trigger external scripts, play back sequences of parameter changes/automation, switch between configurations
