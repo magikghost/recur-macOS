@@ -20,7 +20,8 @@ including per-slot parameter mapping...?
 ## player types to detour such as pingpong
 ## option to record output rather than input
 ## support images / gifs in the sampler mode
-## a bank mode similar to sampler / shdr_bnk but for triggering generic system actions - mapping python files?
+would be cool to be able to both use images/gifs as sources, but also to be able to add overlays/frames to the output.
+including perhaps a text generation mode for showing title cards and messages.
 ## playing a video from the browser - similar to how you can play shaders from shader browser
 ## page up / page down nav shortcuts
 ## improve some of the mix shaders
@@ -42,7 +43,7 @@ Can be expanded to support other controllers and functionality (config contribut
 ## record/loop parameter automation
 eg hold down a button, wiggle a CC knob for a few seconds, release it and the recur will loop the automation
 should be able to layer multiple automation recordings, save them to slots for later reuse, and start/stop/retrigger them manually or in time with beat?
-## meta presets / macros
+## meta presets / macros aka a bank mode similar to sampler / shdr_bnk but for triggering generic actions - mapping python files?
 an extra 'browser' mode that stores macros in triggerable banks/slots
 macros should be able to do things like set multiple shaders active, set parameters, set videos playing, set custom midi/parameter mappings, trigger external scripts, play back sequences of parameter changes/automation, switch between configurations
 perhaps this could be the functionality that parameter automations are built upon
