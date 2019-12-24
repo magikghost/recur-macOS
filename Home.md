@@ -28,6 +28,7 @@ other bits and pieces:
 - how to [update firmware]
 - notes about [licences and dependencies]
 - notes about [past feature exploring]
+- list of [Commands-available-for-mapping]
 
 [Operating Guide]: operate_docs
 [Building Guide]: build_docs
