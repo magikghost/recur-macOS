@@ -146,7 +146,7 @@ r_e_c_u_r looking happy among friends !
 [bottom]: https://github.com/langolierz/r_e_c_u_r/blob/master/enclosure/baseplate.stl
 [key stickers]: https://github.com/langolierz/r_e_c_u_r/blob/master/enclosure/keystickers.svg
 [etcher]: https://etcher.io
-[modified image]: https://drive.google.com/open?id=10KGXB51lWgq3Vw83noTYA6VME2TBx5J9
+[modified image]: https://github.com/langolierz/r_e_c_u_r/wiki/r_e_c_u_r-imgs
 [operate docs]: operate_docs
 [instructions to install]: https://github.com/langolierz/r_e_c_u_r/blob/master/dotfiles/README.md
 [these rubber feet]: https://www.aliexpress.com/item/40-Self-Adhesive-Rubber-Bumper-Stopper-Non-slip-Feet-Door-Buffer-Pads-Furniture-DIY-Tool/32849514475.html
