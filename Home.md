@@ -18,6 +18,7 @@ also my [youtube channel] with video guides of:
 also you might be interested in: 
 
 - the [faq]
+- always the links to the [latest img]
 - list of [parts and sources] others have used with r_e_c_u_r
 - the [i_n_c_u_r pcb] extension project
 - future [feature request ideas]
@@ -46,3 +47,4 @@ other bits and pieces:
 [update firmware]: updating_firmware
 [licences and dependencies]: licences_and_dependencies
 [past feature exploring]: logs_of_feature_exploring
+[latest img]: r_e_c_u_r_imgs
