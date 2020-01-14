@@ -37,8 +37,8 @@ i hope the foundations iv provided encourage you to make larger changes for more
 
 [diagram]: https://docs.google.com/drawings/d/1ltWCv82rKVzOiFe6GaDDPlneG2oki0yRujArPU5V2ss/edit?usp=sharing
 [design_overview]: images/design_overview.jpg
-[premapped_keys]: https://github.com/langolierz/r_e_c_u_r/enclosure/vectorfront_blank_keys.png
-[dotfiles]: https://github.com/langolierz/r_e_c_u_r/dotfiles
-[keypad_action_mapping.json]: https://github.com/langolierz/r_e_c_u_r/data_centre/json_objects/keypad_action_mapping.json
-[action]: https://github.com/langolierz/r_e_c_u_r/actions.py 
+[premapped_keys]: https://github.com/langolierz/r_e_c_u_r/blob/master/enclosure/vectorfront_blank_keys.png?raw=true
+[dotfiles]: https://github.com/langolierz/r_e_c_u_r/tree/master/dotfiles
+[keypad_action_mapping.json]: https://github.com/langolierz/r_e_c_u_r/tree/master/json_objects/keypad_action_mapping.json
+[action]: https://github.com/langolierz/r_e_c_u_r/tree/master/actions.py 
 
