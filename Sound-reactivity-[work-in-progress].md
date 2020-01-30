@@ -19,7 +19,7 @@ I didn't keep notes on how I did this, but roughly you need to disable the Pi's 
 
 ### Using helpers/soundreact.py to read live volume from sound input
 
-To read live sound you'll obviously need to plug a sound source into your
+To read live sound you'll need to plug a sound source into your USB input device and verify that its working.
 
 In my branches that support this you'll find a script _helpers/soundreact.py_ which is presently an extremely primitive python script that opens the first sound input device and reads the incoming stream.  It then continually broadcasts the volume of the stream via OSC over UDP, as a float with range 0.0-1.0, addressed to the channel named __/volume__.  The _dotfiles/launcher.sh_ script has been modified to load this script when recur launches.
 
