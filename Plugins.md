@@ -51,7 +51,7 @@ eg bind a control to something like:
 
 `           "DEFAULT": ["invert|f:sin(x*pi):|set_the_shader_param_0_layer_offset_0_continuous>&set_variable_B>&print_arguments&&set_variable_A&&print_arguments","set_strobe_amount_continuous"],`
 
-This example has three branches separated by the `&&`.  The first branch _invert_s the value sent from the control, then calls _sin(value*pi)_ on the result, then passes the result of that on to set the shader param, be stored in variable name B and also printed to debug console.  The second branch simply sets variable B to the initial value from the control.  The third branch prints the initial value.
+This example has three branches separated by the `&&`.  The first branch _invert_s the value sent from the control, then calls _sin(value*pi)_ on the result, then passes the result of that on to set the shader param, be stored in variable name B and also printed to debug console.  The second branch simply sets variable A to the initial value from the control.  The third branch prints the initial value.
 
 `            "DEFAULT": ["set_the_shader_param_1_layer_offset_0_continuous&&B>print_arguments","set_shader_speed_layer_0_amount"],
 `
