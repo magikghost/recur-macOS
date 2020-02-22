@@ -31,6 +31,10 @@ other bits and pieces:
 - notes about [past feature exploring]
 - list of [commands available for mapping]
 
+shader writing tutorials:
+
+- [convert a simple 1input shader from shadertoy]
+
 [Operating Guide]: operate_docs
 [Building Guide]: build_docs
 [Developing Guide]: develop_docs
@@ -48,3 +52,4 @@ other bits and pieces:
 [licences and dependencies]: licences_and_dependencies
 [past feature exploring]: logs_of_feature_exploring
 [latest img]: r_e_c_u_r_imgs
+[convert a simple 1input shader from shadertoy]: tutorial_converting_simple_1input_shader_from_shadertoy
