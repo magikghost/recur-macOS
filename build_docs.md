@@ -2,11 +2,13 @@
 
 ## get some parts
 
-_here is a document of different parts and sources that people have used for building recur. For other questions check out the [faq] , or get in touch._
+_ [here](parts_and_sources) is a document of different parts and sources that people have used for building recur. For other questions check out the [faq] , or get in touch._
 
 these are the parts you need to get. to reduce shipping costs to nz i sourced them through aliexpress.com but you could equally get them from ebay, amazon or elsewhere. 
 
 ### main parts:
+
+__NOTE: pi4 is currently not supported yet__
 
 - [raspberry pi3] *37 USD*
 
