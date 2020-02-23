@@ -49,7 +49,7 @@ im not sure. will update here when i have a chance to try... the pi3 is the high
 
 ## can i use a pi4 for this ?
 
-not sure. the pi3 is the highest spec available right now. oFX only recently got squared away for the rpi4. still buggy and unstable. will update here once i get a chance to experiment. 
+not currently. the pi3 is the highest spec available right now. oFX only recently got squared away for the rpi4. still buggy and unstable. will update here once i get a chance to experiment. 
 
 
 </details>
