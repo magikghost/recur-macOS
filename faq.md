@@ -45,6 +45,16 @@ im not sure. will update here when i have a chance to try... the pi3 is the high
 </details>
 
 <details>
+<summary>can i use a pi4 for this ?</summary> 
+
+## can i use a pi4 for this ?
+
+im not sure. still experimenting and will update here when i have a chance to try... the pi3 is the highest spec available right now. oFX only recently got squared away for the rpi4. still buggy and unstable.
+
+
+</details>
+
+<details>
 <summary>how do i connect composite out / why is my composite cable just outputting corruption ?</summary> 
 
 ## how do i connect composite out / why is my composite cable just outputting corruption ?
