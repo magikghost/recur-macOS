@@ -1,6 +1,6 @@
 # Plugins (experimental)
 
-doctea has implemented a basic experimental plugin system at https://github.com/doctea/r_e_c_u_r/tree/feature_plugins and https://github.com/doctea/r_e_c_u_r/tree/feature_plugins_shader_gadgets.
+doctea has implemented a basic experimental plugin system at https://github.com/doctea/r_e_c_u_r/tree/feature_plugins and https://github.com/doctea/r_e_c_u_r/tree/feature_plugins_shader_gadgets - now merged into https://github.com/doctea/langolierz/tree/feature_plugins
 
 ## Basic idea
 
