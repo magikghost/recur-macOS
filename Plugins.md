@@ -25,9 +25,9 @@ Working quite nicely in the example _MidiFeedbackAPCKey25_ plugin, with the Akai
 
 If you have any hardware you want to see supported or want to implement it it yourself let me know!
 
-### ActionPlugin
+### ActionsPlugin
 
-Base class for plugins that register new action handlers that can be used from mappings (OSC, MIDI, keys etc)
+Base class for plugins that register new action handlers that can be used from mappings (OSC, MIDI, keys etc).
 
 ### SequencePlugin
 
@@ -35,7 +35,37 @@ Base class that implements sequences of events, subclass it to implement your ow
 
 Can alter speed/go backwards in realtime, pause, loop on/off.  Adds action bindings to make it controllable in realtime from mappings.
 
+Used in LFOModulation and ShaderLoopRecordPlugin.
+
+### DisplayPlugin
+
+Plugins of this type implement a new Display page on the r_e_c_u_r screen, for showing controls/parameters related to the plugin.
+
+### ModulationReceiverPlugin
+
+Plugins that inherit from this will be sent updates when the modulation values change -- used for implementing modulation response (eg WJSendPlugin parameters can be modulated).
+
+### AutomationSourcePlugin
+
+Plugins of this type record and playback parameter changes -- eg for allowing WJSendPlugin to record/playback automation through ShaderLoopRecordPlugin.
+
 # Current Plugins
+
+## WJSendPlugin
+
+Sends commands to Panasonic mixers using a USB->serial dongle - tested with MX30 and MX50 but probably works with AVE55 and any other video mixer that uses the same serial protocol.
+
+UI allows assignment of r_e_c_u_r modulation to any parameter: with the WJMX page selected, use <> to select current parameter and [] to select the argument of the parameter.  Then use bound controls to adjust modulation level.
+
+Automation is also recorded and played back via ShaderLoopRecordPlugin.
+
+Note that this is a bit buggy, it works great when only sending one type of parameter automation but when you try and send multiple commands the mixer seems to lag up and misses a lot of the commands.  Am not currently sure if this is something that can be fixed, or if its a limitation of the mixer/serial speed.
+
+## LFOModulation
+
+Has 4 LFOs sending modulation on slots 0-3 (A-D).  Can adjust speed and amount of each.  This modulation can be assigned to shader parameters, or to WJSendPlugin parameters etc.
+
+Configurable formulas to add different shapes are TODO. A+C currently give a sine wave, B+D give a complex cosine-sine wave. 
 
 ## ManipulatePlugin
 
