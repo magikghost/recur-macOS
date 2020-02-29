@@ -10,7 +10,7 @@ There are 4 'modulation parameters', ABCD (aka 0-3).  Each of these stores a flo
 
 Each modulation slot has its value set using the recur actions _*modulate_param_0_to_amount_continuous*_ through _*modulate_param_3_to_amount_continuous*_ in a _json_objects/osc_action_mapping.json_ or _json_objects/midi_action_mapping.json_ file.  This is also how internal plugins should send their own modulation to slots via _actions.call_method_name_.
 
-### User controls
+### User controls - setting shader modulations
 
 By default, modulation parameter 0 is selected.  Switch to different modulation parameters using _**select_shader_modulation_slot_X**_ where X is the parameter 0-3.  Reset all modulations for the currently selected modulation parameter using _**reset_selected_modulation**_.
 
