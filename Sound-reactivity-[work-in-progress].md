@@ -22,6 +22,12 @@ SoundReactPlugin currently sends two values to assignable modulation slots, 'ene
 
 use eg `"NAV_SND": ["sound_set_modulation_energy_slot_0_level"]` in mapping to set the amount of 'energy' to output to modulation slot 0/A.
 
+use `"NAV_SND": ["sound_set_config_energy_threshold"]` to set the threshold of the input -- set to max to completely mute the input, minimum to have no minimum threshold at all.
+
+use `"NAV_SND": ["sound_set_config_energy_gain"]` to set the gain on the input signal.
+
+For best results you want to set it so that the levels are peaking/varying around 0.5 - halfway up the little bar graph indicator that is next to the listing for 'energy' on the SOUNDMOD page.
+
 ### [deprecated but useful if you want to send external sources into recur modulation] Using helpers/soundreact.py to read live volume from sound input
 
 To read live sound you'll need to plug a sound source into your USB input device and verify that its working.
