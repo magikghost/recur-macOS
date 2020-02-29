@@ -1,6 +1,6 @@
 # Using modulation parameters
 
-The newer branches by me (doctea) contain experimental _modulation_ functionality, intended mostly to be used creatively with sources of external control like OSC and sound reactivity, and also internal sources like the LFOModulationPlugin.
+The newer branches contain _modulation_ functionality, intended mostly to be used creatively with sources of external control like OSC and sound reactivity, and also internal sources like the LFOModulationPlugin.
 
 ## How it works
 
