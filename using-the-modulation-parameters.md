@@ -1,7 +1,6 @@
 # Using modulation parameters
 
-The newer branches by me (doctea) contain experimental _modulation_ functionality, intended mostly to be used creatively with sources of external control like OSC and sound reactivity (but could be expanded on to allow for internal LFOs and other such fun).
-
+The newer branches by me (doctea) contain experimental _modulation_ functionality, intended mostly to be used creatively with sources of external control like OSC and sound reactivity, and also internal sources like the LFOModulationPlugin.
 ## How it works (experimental)
 
 There are 4 'modulation parameters', numbered 0-3.  Each of these stores a float from -1.0 to +1.0, this is the 'modulation value' and each modulation value is set using the recur actions _*modulate_param_0_to_amount_continuous*_ through _*modulate_param_3_to_amount_continuous*_ in a _json_objects/osc_action_mapping.json_ or _json_objects/midi_action_mapping.json_ file.  
