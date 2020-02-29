@@ -51,6 +51,10 @@ Plugins of this type record and playback parameter changes -- eg for allowing WJ
 
 # Current Plugins
 
+## SoundReactPlugin
+
+Listens on the input to a USB soundcard and sends modulation values to the rest of r_e_c_u_r.  See the docs on Sound Reactivity for further details.
+
 ## WJSendPlugin
 
 Sends commands to Panasonic mixers using a USB->serial dongle - tested with MX30 and MX50 but probably works with AVE55 and any other video mixer that uses the same serial protocol.
