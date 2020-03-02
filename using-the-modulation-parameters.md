@@ -16,9 +16,12 @@ By default, modulation parameter 0 is selected.  Switch to different modulation 
 
 To set the currently selected modulation parameter's level for a shader parameter, use _**set_param_X_layer_offset_Y_modulation_level_continuous**_ where X is the shader parameter number 0-3 and Y is the shader layer.
 
-In recur, there are 3 shader layers, and each can run one shader at a time.  Each shader has 4 parameters, numbered 0-4, making for a total of 12 controllable parameters.  Each shader layer parameter now keeps a 'modulation level' for each modulation parameter. The _average_ of all four _modulation parameter values_ is applied to each _shader parameter_, according to the _modulation parameter level_ respective to the parameter.
+In recur, there are 3 shader layers, and each can run one shader at a time.  Each shader has 4 parameters, numbered 0-4, making for a total of 12 controllable parameters.  Each shader layer parameter keeps a 'modulation level' for each modulation parameter (so 48 assignations). The _average_ of all four _modulation parameter values_ is applied to each _shader parameter_, according to the _modulation parameter level_ respective to the parameter.
 
 Check out the _json_objects/osc_actions_mapping_APC Key 25.json_ file for an example of how I've mapped this to my controller -- I have it so that holding FN makes the knobs on my controller adjust the //modulation level// for the respective shader parameter, with some other buttons to select a different modulation parameter and to reset the existing one.
 
+### Plugins
 
-- doctea 2020-01-29
+LFOModulationPlugin sends modulation signals according to internal formula generation, and WJSendPlugin can receive modulation signals and map them to internal parameters.
+
+- doctea 2020-01-29 (revised 2020-03-02)
