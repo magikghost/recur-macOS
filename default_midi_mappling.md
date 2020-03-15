@@ -24,3 +24,10 @@ midi_note | default_mapping | alternative_mappings
 --- | --- | ---
 cc 0 | shader0param0 | na
 cc 0 | shader0param0 | na
+cc 0 | shader0param0 | na
+cc 0 | shader0param0 | na
+cc 0 | shader0param0 | na
+cc 0 | shader0param0 | na
+cc 0 | shader0param0 | na
+cc 0 | shader0param0 | na
+cc 0 | shader0param0 | na
