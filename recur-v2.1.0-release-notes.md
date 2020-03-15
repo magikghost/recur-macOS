@@ -20,7 +20,7 @@ recur_2.1.0 is the new experimental firmware. here are some details about what i
 - _white_ and _black_ lumakey (x0 mix position, x1 switches key direction A -> B or B -> A)
 - _chromakey_ (x0 mix position, x1 key direction, x2 select hue)
 - plus 2 _displace_ shaders (1 input and 2 input). offsets a pixel in a direction based on its colour (x0 mix amount, x1 offset direction, x2 offset amount), 
-- _spotlight_ and _rgb_pallet_ shaders, spotlight is an 1input (despite being filed in the 0input folder whoop), which passes a circle (with x0 x-pos, x1 y-pos, x2 diameter, x3 trail), and rgb_pallet is a 0input source for spotlight that creates plain colour (with x0 r, x1 g, x2 b, x3 alpha)
+- _spotlight_ and _rgb_pallet_ shaders (inspired by Nichole's [Scrawl](https://github.com/wednesdayayay/Scrawl) project), spotlight is an 1input (despite being filed in the 0input folder whoop), which passes a circle (with x0 x-pos, x1 y-pos, x2 diameter, x3 trail), and rgb_pallet is a 0input source for spotlight that creates plain colour (with x0 r, x1 g, x2 b, x3 alpha)
 
 ### note about wlan connection
 
