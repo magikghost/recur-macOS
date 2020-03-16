@@ -28,7 +28,7 @@ There are only a handful of commands with proper support at the moment, but you 
 
 Automation is also recorded and played back via ShaderLoopRecordPlugin.
 
-Note that this is a bit buggy, it works great when only sending one type of parameter automation but when you try and modulate multiple commands at the same time the mixer seems to lag up and misses a lot of the commands lead to some pretty horrendous lag, especially noticeable when automating the wipe.  Am not currently sure if this is something that can be fixed, or if its a limitation of the mixer/serial speed, but have tried many things to fix so if anyone has any ideas to try lmk!
+Note that this is a bit buggy, it works great when only sending one type of parameter automation but when you try and modulate multiple commands at the same time the mixer seems to lag up and misses a lot of the commands leading to some pretty horrendous lag, especially noticeable when automating the wipe.  Am not currently sure if this is something that can be fixed, or if its a limitation of the mixer/serial speed, but have tried many things to fix so if anyone has any ideas to try lmk!
 
 ## LFOModulation
 
