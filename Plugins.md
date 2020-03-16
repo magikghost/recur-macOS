@@ -16,9 +16,11 @@ Sends commands to Panasonic mixers using a USB->serial dongle - tested with MX30
 
 UI allows assignment of r_e_c_u_r modulation to any parameter: with the WJMX page selected, use <> to select current parameter and [] to select the argument of the parameter.  Then use bound controls to adjust modulation level.
 
+There are only a handful of commands with proper support at the moment, but you can also hardcode commands using MIDI, keypad or osc mappings.
+
 Automation is also recorded and played back via ShaderLoopRecordPlugin.
 
-Note that this is a bit buggy, it works great when only sending one type of parameter automation but when you try and send multiple commands the mixer seems to lag up and misses a lot of the commands.  Am not currently sure if this is something that can be fixed, or if its a limitation of the mixer/serial speed.
+Note that this is a bit buggy, it works great when only sending one type of parameter automation but when you try and modulate multiple commands at the same time the mixer seems to lag up and misses a lot of the commands lead to some pretty horrendous lag, especially noticeable when automating the wipe.  Am not currently sure if this is something that can be fixed, or if its a limitation of the mixer/serial speed, but have tried many things to fix so if anyone has any ideas to try lmk!
 
 ## LFOModulation
 
