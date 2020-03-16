@@ -6,6 +6,14 @@ Make it easy to add new custom or experimental functionality to recur!  eg add i
 
 # Current Plugins
 
+### ShaderQuickPresetPlugin
+
+Adds mappable actions to allow saving and hot-switching between 8 different 'shader preset slots'.  Check the docs and code in the branch or refer to my APC Key 25 config for how to set up the mappings.
+
+### ShaderLoopRecordPlugin
+
+Record/overdub 8 different looping or triggered automation clips (parameter movements, shader speed changes, feedback setting changes, etc) and layer them as you wish via bindings.  Saved to disk for later performance.
+
 ## SoundReactPlugin
 
 Listens on the input to a USB soundcard and sends modulation values to the rest of r_e_c_u_r.  See the docs on Sound Reactivity for further details.
@@ -49,17 +57,6 @@ This example has three branches separated by the `&&`.  The first branch _invert
 `            "DEFAULT": ["set_the_shader_param_1_layer_offset_0_continuous&&B>print_arguments","set_shader_speed_layer_0_amount"],
 `
 This second example sets the shader param to the control vlaue and also recalls the value of 'B', passing to to the console to print (but you could also pass it to any other action or do further manipulation on it, etc)
-
-## Shader Gadgets
-
-### ShaderQuickPresetPlugin
-
-Adds mappable actions to allow saving and hot-switching between 8 different 'shader preset slots'.  Check the docs and code in the branch or refer to my APC Key 25 config for how to set up the mappings.
-
-### ShaderLoopRecordPlugin
-
-Record/overdub 8 different looping or triggered automation clips (parameter movements, shader speed changes, feedback setting changes, etc) and layer them as you wish via bindings.  Saved to disk for later performance.
-
 
 # Developing new plugins
 
