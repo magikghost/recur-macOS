@@ -8,7 +8,7 @@ Sound reactivity is now available in the feature_plugins branch.
 
 * (for running external sound into the Pi) a USB sound card (I've only tested with https://www.amazon.co.uk/TechRise-External-Adapter-Splitter-Converter/dp/B01J3QGU50/ and it seems to work) _(**todo**: find out if any problems with this device in use)_
 * a MIDI controller to set modulation levels etc _(**todo**: menu system on the recur screen to allow config of modulation and mappings without mapping controller)_
-* hopefully not needed anymore? __able to login to your recur RPI to make config changes__
+* able to login to your recur RPI to make mapping config changes
 
 ### Using SoundReactPlugin
 
