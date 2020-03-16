@@ -8,13 +8,7 @@ Sound reactivity is now available in the feature_plugins branch.
 
 * (for running external sound into the Pi) a USB sound card (I've only tested with https://www.amazon.co.uk/TechRise-External-Adapter-Splitter-Converter/dp/B01J3QGU50/ and it seems to work) _(**todo**: find out if any problems with this device in use)_
 * a MIDI controller to set modulation levels etc _(**todo**: menu system on the recur screen to allow config of modulation and mappings without mapping controller)_
-* able to login to your recur RPI to make config changes
-
-### Setting up the PI to use the USB sound device
-
-_**todo**: instructions on doing this, implementing in default recur image?_
-
-I didn't keep notes on how I did this, but roughly you need to disable the Pi's onboard sound and enable the USB sound device instead.  I think I followed instructions from https://raspberrypi.stackexchange.com/questions/80072/how-can-i-use-an-external-usb-sound-card-and-set-it-as-default to do this but it took a bit of fiddling.
+* hopefully not needed anymore? __able to login to your recur RPI to make config changes__
 
 ### Using SoundReactPlugin
 
@@ -24,9 +18,12 @@ use eg `"NAV_SND": ["sound_set_modulation_energy_slot_0_level"]` in mapping to s
 
 use `"NAV_SND": ["sound_set_config_energy_threshold"]` to set the threshold of the input -- set to max to completely mute the input, minimum to have no minimum threshold at all.
 
-use `"NAV_SND": ["sound_set_config_energy_gain"]` to set the gain on the input signal.
+use `"NAV_SND": ["sound_set_config_energy_gain"]` to set the gain on the input signal -- set to minimum to have no input at all, max to boost input to maximum
 
-For best results you want to set it so that the levels are peaking/varying around 0.5 - halfway up the little bar graph indicator that is next to the listing for 'energy' on the SOUNDMOD page.
+For best results you want to set it so that the levels are peaking/varying around 0.5 - halfway up the little bar graph indicator that is next to the listing for 'energy' on the SOUNDMOD page.  If you get it right the modulation output will fluctuate around the 0 point.
+
+***
+
 
 ### [deprecated but useful if you want to send external sources into recur modulation] Using helpers/soundreact.py to read live volume from sound input
 
@@ -34,7 +31,7 @@ To read live sound you'll need to plug a sound source into your USB input device
 
 In my branches that support this you'll find a script _helpers/soundreact.py_ which is presently an extremely primitive python script that opens the first sound input device and reads the incoming stream.  It then continually broadcasts the volume of the stream via OSC over UDP, as a float with range 0.0-1.0, addressed to the channel named __/volume__.  The _dotfiles/launcher.sh_ script has been modified to load this script when recur launches.
 
-You could also use any OSC source transmitting on the same network on port 5433 to communicate with recur, to send any values.  You could use for example any custom input type you can imagine, another Pi connected to the sounddesk at the venue, but also not limited to sound.  Have the recur respond to a light sensor or camera in the room or buttons or humidity or...
+_TODO: check this is true_ You could also use any OSC source transmitting on the same network on port 5433 to communicate with recur, to send any values.  You could use for example any custom input type you can imagine, another Pi connected to the sounddesk at the venue, but also not limited to sound.  Have the recur respond to a light sensor or camera in the room or buttons or humidity or...
 
 https://github.com/ETCLabs/Sound2Light and https://github.com/ETCLabs/OSCWidgets are great Windows and Mac apps that have full GUIs and handy functions for either interpreting sound (Sound2Light) or building UI dashboards (OSCWidgets) to send out OSC messages.
 
@@ -62,8 +59,14 @@ This maps the ///volume/ OSC channel to internal recur action //modulate_param_0
 
 Maybe this would need to be done on the conjur side of things instead of using the soundreact script?  Maybe that is even a more sensible place to put the soundreact script functionality as it already communicates in two directions with recur and so recur could easily tell conjur when to turn the sound device on/off or choose input etc?
 
+### [deprecated?] Setting up the PI to use the USB sound device
+
+_**todo**: instructions on doing this, implementing in default recur image?_
+
+I didn't keep notes on how I did this, but roughly you need to disable the Pi's onboard sound and enable the USB sound device instead.  I think I followed instructions from https://raspberrypi.stackexchange.com/questions/80072/how-can-i-use-an-external-usb-sound-card-and-set-it-as-default to do this but it took a bit of fiddling.
+
 
 See page [using the modulation parameters] to see how modulate parameters work!
 
 
-- doctea 2020-01-29
+- doctea 2020-03-16
