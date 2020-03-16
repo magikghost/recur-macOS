@@ -24,4 +24,4 @@ Check out the _json_objects/osc_actions_mapping_APC Key 25.json_ file for an exa
 
 LFOModulationPlugin sends modulation signals according to internal formula generation, and WJSendPlugin can receive modulation signals and map them to internal parameters.
 
-- doctea 2020-01-29 (revised 2020-03-02)
+- doctea 2020-01-29 (revised 2020-03-16)
