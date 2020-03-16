@@ -101,3 +101,8 @@ Plugins that inherit from this will be sent updates when the modulation values c
 ### AutomationSourcePlugin
 
 Plugins of this type record and playback parameter changes -- eg for allowing WJSendPlugin to record/playback automation through ShaderLoopRecordPlugin.
+
+
+***
+
+All plugins so far by Tristan Rowley https://github.com/doctea/, let me know any questions, bugfixes, ideas or contributions!
