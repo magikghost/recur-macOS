@@ -20,8 +20,10 @@ In recur, there are 3 shader layers, and each can run one shader at a time.  Eac
 
 Check out the _json_objects/osc_actions_mapping_APC Key 25.json_ file for an example of how I've mapped this to my controller -- I have it so that holding FN makes the knobs on my controller adjust the //modulation level// for the respective shader parameter, with some other buttons to select a different modulation parameter and to reset the existing one.
 
-### Plugins
+### Plugin support
 
-LFOModulationPlugin sends modulation signals according to internal formula generation, and WJSendPlugin can receive modulation signals and map them to internal parameters.
+LFOModulationPlugin and SoundReactPlugin send modulation signals, and WJSendPlugin can receive modulation signals and map them to internal parameters.
+
+ManipulatePlugin stores a copy of recent mod values as variable, so you can reuse them in other bindings if necessary (check the ManipulatePlugin page to see these updating)
 
 - doctea 2020-01-29 (revised 2020-03-16)
