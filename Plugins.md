@@ -48,8 +48,6 @@ This second example sets the shader param to the control vlaue and also recalls 
 
 ## Shader Gadgets
 
-There's experimental goodies in https://github.com/doctea/r_e_c_u_r/tree/feature_plugins_shader_gadgets..
-
 ### ShaderQuickPresetPlugin
 
 Adds mappable actions to allow saving and hot-switching between 8 different 'shader preset slots'.  Check the docs and code in the branch or refer to my APC Key 25 config for how to set up the mappings.
