@@ -102,8 +102,7 @@ Plugins that inherit from this will be sent updates when the modulation values c
 
 ### AutomationSourcePlugin
 
-Plugins of this type record and playback parameter changes -- eg for allowing WJSendPlugin to record/playback automation through ShaderLoopRecordPlugin.
-
+Plugins of this type playback and store (temporarily) parameter changes -- eg this is what allows WJSendPlugin to record/playback automation through ShaderLoopRecordPlugin.  ShaderLoopRecordPlugin knows to ask AutomationSourcePlugins for data to record and to recall it back.
 
 ***
 
