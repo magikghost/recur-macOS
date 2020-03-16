@@ -22,9 +22,11 @@ Note that this is a bit buggy, it works great when only sending one type of para
 
 ## LFOModulation
 
-Has 4 LFOs sending modulation on slots 0-3 (A-D).  Can adjust speed and amount of each.  This modulation can be assigned to shader parameters, or to WJSendPlugin parameters etc.
+Has 4 LFOs sending modulation on slots 0-3 (A-D).  Can adjust overall speed and the amount of each.  This modulation can be assigned to shader parameters, or to WJSendPlugin parameters etc.
 
-Configurable formulas to add different shapes are TODO. A+C currently give a sine wave, B+D give a complex cosine-sine wave. 
+Modulation output goes from -1 to +1 so the amount determines how much it moves around the 0 point set by the shader parameter.  (well I think thats how it should work anyway, up for discussion..)
+
+Configurable formulas to add different shapes are TODO.  Each channel is currently sending a different shaped wave.
 
 ## ManipulatePlugin
 
