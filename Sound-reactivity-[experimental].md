@@ -1,6 +1,6 @@
 # Sound (and more) reactivity in r_e_c_u_r [experimental work-in-progress]
 
-Sound reactivity is now available in the feature_plugins branch.
+Sound reactivity is now available in the 2.1 release.
 
 ## How to use
 
