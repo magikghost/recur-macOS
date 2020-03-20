@@ -4,6 +4,11 @@ Sound reactivity is now available in the 2.1 release.
 
 ## How to use
 
+### Plug'n'play...maybe?
+
+* havent tested so dont know if this works in 2.1 image by default -- however fingers crossed should be able to plug in a USB sound card, enable the SoundReactPlugin from the recur Plugins screen, and then fiddle with the settings while on the SoundReactPlugin to set levels and modulation slot(s) to send to.  (Then use Shader Modulation bank to connect the modulation output to a shader parameter).
+
+
 ### Requirements
 
 * (for running external sound into the Pi) a USB sound card (I've only tested with https://www.amazon.co.uk/TechRise-External-Adapter-Splitter-Converter/dp/B01J3QGU50/ and it seems to work) _(**todo**: find out if any problems with this device in use)_
