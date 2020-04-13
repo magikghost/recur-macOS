@@ -50,7 +50,14 @@ Has 4 LFOs sending modulation on slots 0-3 (A-D).  Can adjust overall speed and 
 
 Modulation output goes from -1 to +1 so the amount determines how much it moves around the 0 point set by the shader parameter.  (well I think thats how it should work anyway, up for discussion..)
 
-Configurable formulas to add different shapes are TODO.  Each channel is currently sending a different shaped wave.
+**FORTHCOMING PATCH:**
+* Controls while on NAV_LFO page:
+* **FN+< or >**: decrease/increase lfo speed
+* **< or >**: select previous/next LFO slot
+* **[ or ]**: increase/decrease selected LFO level
+* **Square button**: Enable/disable LFO
+
+TODO: Configurable formulas to add different shape oscillators.  Each channel is currently sending a different shaped wave.
 
 ## ManipulatePlugin
 
