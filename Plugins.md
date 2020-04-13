@@ -11,8 +11,8 @@ Make it easy to add new custom or experimental functionality to recur!  eg add i
 Adds mappable actions to allow saving and hot-switching between 8 different 'shader preset slots'.  Check the docs and code in the branch or refer to my APC Key 25 config for how to set up the mappings.
 
 * Controls while the NAV_QKSH plugin page is displayed on recur:
-*   **Keypad numbers 0-9**: Switch to specified preset slot
-*   **FN+Keypad numbers 0-9**: Select preset slot (but do not switch to it)
+*   **Keypad numbers 0-7**: Switch to specified preset slot
+*   **FN+Keypad numbers 0-7**: Select preset slot (but do not switch to it)
 *   **< or >**: Select previous/next preset slot
 *   **FN+< or >**: Switch to previous/next preset slot
 *   **Square button**: Recall currently selected preset
