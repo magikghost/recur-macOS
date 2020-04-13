@@ -8,7 +8,9 @@ Make it easy to add new custom or experimental functionality to recur!  eg add i
 
 ### ShaderQuickPresetPlugin
 
-Adds mappable actions to allow saving and hot-switching between 8 different 'shader preset slots'.  Check the docs and code in the branch or refer to my APC Key 25 config for how to set up the mappings.
+Adds mappable actions to allow saving and hot-switching between 8 different 'shader preset slots'.  
+
+Uses AutomationSourcePlugins, so other plugins (eg LFOModulationPlugin, WJSendPlugin) will also have their state snapshotted.
 
 * Controls while the NAV_QKSH plugin page is displayed on recur:
 *   **Keypad numbers 0-7**: Switch to specified preset slot
@@ -28,7 +30,7 @@ Record/overdub 8 different looping or triggered automation clips (parameter move
 
 ## SoundReactPlugin
 
-Listens on the input to a USB soundcard and sends modulation values to the rest of r_e_c_u_r.  See the docs on Sound Reactivity for further details.
+Listens on the input to a USB soundcard and sends modulation values to the rest of r_e_c_u_r.  See the docs on Sound Reactivity (wiki Pages menu) for further details.
 
 ## WJSendPlugin
 
