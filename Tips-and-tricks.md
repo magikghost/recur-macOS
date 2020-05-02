@@ -15,6 +15,29 @@ This actually lets you apply FX to the feedback layer separately. I have my vide
 
 # Videos
 
+## Generating interference patterns
+
+_Winston Giles Edwards 2020-04-27_
+https://www.facebook.com/groups/114465402691215/permalink/685094172294999/
+
+I just discovered how to turn r_e_c_u_r into an interference pattern generator, aka Moire pattern.
+
+I took a simple black and white wavy line pattern and converted it into a 60-second video on Kapwing, then downscaled it to high quality SD resolution in Handbrake.
+
+The r_e_c_u_r sampler needs to be in parallel mode. Load the video into a bank by itself and then play it in both the Now and Next players.
+
+Go to the shaders and load rotate.frag into lay0 and set the controls to 25-50-50-50. Now load the white or black luma key shader into lay1. Make sure the second control is at 0, use the first control to dial in your key.
+
+You should now have one video file layered and keyed against a copy itself. When you use the controls in the rotate shader, it will cause interference patterns to appear.
+
+You can try it with this video https://www.dropbox.com/s/ywf1tllsdobgzvx/wavymoirebait-1.mp4?dl=0&fbclid=IwAR2N7tyCDNrcHEGmxZHcUQ5MLrIAcJjHBACl9VIAiUgWbjxES1ZjIWzgav4
+
+This is just one pattern layered... two different patterns will be bonkers!!
+
+This also works with other transforming shaders like s-wobble in the 1-input shader folder
+
+Sad to report that, for whatever reason, this doesn't work as expected with two different videos. Will keep trying...
+
 ...
 
 # Plugins
