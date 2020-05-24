@@ -8,10 +8,11 @@ Before starting, download the image (I used recur_2_0_2.img), the app balenaEtch
 
 2. Reconnect SD card into computer
 
-3. Do step 3 & 4 here: https://desertbot.io/blog/headless-raspberry-pi-3-bplus-ssh-wifi-setup
+3. To control your 3b+ over Wi-Fi: do step 3 & 4 [here](https://desertbot.io/blog/headless-raspberry-pi-3-bplus-ssh-wifi-setup). 
 
-touch /Volumes/boot/ssh
-create wpa_supplicant.conf file and paste info into it. (open using textedit)
+`touch /Volumes/boot/ssh`
+
+create a TextFile called: **wpa_supplicant.conf** and paste info into it. (open using TextEdit)
 
 Make sure you get all your Wi-Fi info correctly.
 
@@ -21,9 +22,9 @@ Make sure you get all your Wi-Fi info correctly.
 
 6. use this command to Wi-Fi access (SSH) your Pi:
 
-ssh pi@raspberrypi.local
+`ssh pi@raspberrypi.local`
 
-default password is: raspberry
+default password is: **raspberry**
 
 If your Pi doesn't connect, your Wi-Fi info is wrong. Make it right in your computer's copy of wpa_supplicant.conf , put the microSD back into the computer and copy that plus the SSH file back in.
 
@@ -33,60 +34,61 @@ Assuming you're connected by now...
 http://www.lcdwiki.com/3.2inch_RPi_Display
 Follow instructions "How to Use with Raspbian"
 
-sudo rm -rf LCD-show
+`sudo rm -rf LCD-show
 git clone https://github.com/goodtft/LCD-show.git
 chmod -R 755 LCD-show
 cd LCD-show/
-sudo ./LCD32-show
+sudo ./LCD32-show`
 
 system restarts automatically
 
-8. ssh pi@raspberrypi.local
+8. `ssh pi@raspberrypi.local`
 password: raspberry
 
-9. nano ~/r_e_c_u_r/display_centre/display.py
+9. `nano ~/r_e_c_u_r/display_centre/display.py`
 
 Line 30: change 13 to 9
 
-@staticmethod
+`@staticmethod
     def _create_display_text(tk):
-        return Text(tk, bg="black", fg="white", font=('Liberation Mono', 13), undo=False)
+        return Text(tk, bg="black", fg="white", font=('Liberation Mono', 13), undo=False)`
 
 to
 
-@staticmethod
+`@staticmethod
     def _create_display_text(tk):
-        return Text(tk, bg="black", fg="white", font=('Liberation Mono', 7), undo=False)
+        return Text(tk, bg="black", fg="white", font=('Liberation Mono', 7), undo=False)`
 
 replace line 30 from github into the file. CTRL o, ENTER, CTRL x to get out.
 
-10. sudo cp ~/r_e_c_u_r/dotfiles/config.txt /boot/config.txt
+10. `sudo cp ~/r_e_c_u_r/dotfiles/config.txt /boot/config.txt`
 
-11. sudo nano /boot/config.txt
+11. `sudo nano /boot/config.txt`
 
 12. Find this line near the bottom and copy this one in:
 
-## switch for enabling lcd screen (the next line is being used even if its commented out)
-dtoverlay=tft9341:rotate=270
+`## switch for enabling lcd screen (the next line is being used even if its commented out)
+dtoverlay=tft9341:rotate=270`
 
-13. sudo nano /boot/cmdline.txt
+13. `sudo nano /boot/cmdline.txt`
 
 replace:
 
-dwc_otg.lpm_enable=0 console=tty1 console=ttyAMA0,115200 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait fbcon=map:10 fbcon=font:ProFont6x11
+`dwc_otg.lpm_enable=0 console=tty1 console=ttyAMA0,115200 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait fbcon=map:10 fbcon=font:ProFont6x11`
 
 with:
 
-dwc_otg.lpm_enable=0 console=tty1 console=ttyAMA0,115200 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait fbcon=map:10 fbcon=font:ProFont6x11 quiet splash plymouth.ignore-serial-consoles
+`dwc_otg.lpm_enable=0 console=tty1 console=ttyAMA0,115200 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait fbcon=map:10 fbcon=font:ProFont6x11 quiet splash plymouth.ignore-serial-consoles`
 
-14. sudo reboot , reboot your r_e_c_u_r
+14. `sudo reboot` 
+reboots your r_e_c_u_r
 
-15. ssh pi@raspberrypi.local
+15. `ssh pi@raspberrypi.local`
 password: raspberry
 
 16. time to reconfigure some keys if you need! My top 3 keys were messed up, so...
 
-nano ~/r_e_c_u_r/json_objects/keypad_action_mapping.json
+`nano ~/r_e_c_u_r/json_objects/keypad_action_mapping.json`
 
 changed the order to CAB instead of ABC.
 
