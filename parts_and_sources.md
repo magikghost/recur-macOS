@@ -12,3 +12,5 @@ please update this list if have more or see it out of date
 - [mechanical key](https://www.amazon.com/dp/B07KSSDMQV) - _Michael Dewberry_
 - [tilted case](https://www.amazon.com/gp/product/B07B5YG4LC/) - _Matt Zog_
 - [layer case](https://www.aliexpress.com/item/32944145125.html) - _Alex Manson_ 
+- [3.2" screen](https://www.conrad.com/p/joy-it-rb-tft32-v2-touchscreen-unit-81-cm-32-inch-320-x-240-p-compatible-with-raspberry-pi-backlighting-1380381) - _Kevin Pham_
+
